@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Century Gothic, sans-serif;
+  background-image: url("background.jpg");
+  background-color: rgb(63, 63, 66);
+  background-size:cover;
+}
+
+ .heading h3 {
+  width: auto;
+  position:inherit;
+  text-align: center;
+  font-size: 60px;
+  margin: 0px auto 30px auto;
+  background-color: rgb(0, 0, 0, 0.4);
+  padding: 30px 0px;
+  color: #ceb64d;
+  border-color: #ceb64d;
+  border-width: 2px;
+  border-style: outset;
+}
+
+.intro p {
+  width: 1000px;
+  position:inherit;
+  font-size: 30px;
+  margin: 100px auto;
+  color: #ad9a43;
+  padding-left: 50px;
+}
+
+.intro p span {
+  color: #ffd000;
+  font-style: italic;
+}
+
+.count h4 {
+  width: 1112px;
+  text-align: center;
+  position:inherit;
+  font-size: 25px;
+  margin: 100px auto 0px auto;
+  color: #ad9a43;
+  background-color: rgb(0, 0, 0, 0.4);
+  padding: 20px 0px 20px 20px;
+  border-color: #ceb64d;
+  border-width: 2px;
+  border-style: outset;
+}
+
+#congrats {
+  width: 1000px;
+  position:inherit;
+  text-align: center;
+  font-size: 60px;
+  margin: 200px auto 0px auto;
+  color: #ffd000;
+  padding-left: 50px;
+  line-height: 300%;
+  letter-spacing: 5px;
+}
+
+footer {
+  position:absolute;
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.4);
+  color: #ad9a43;
+  text-align: center;
+  height: 80px;
+}
+
+footer p {
+  padding-top: 15px;
+}
+
+.grid {
+  margin-top: -172px;
+  display: grid;
+  grid-template-rows: 187px 187px 187px;
+  grid-template-columns: 265px 265px 265px 265px;
+  grid-gap: 25px;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.back {
+  cursor: pointer;
+}
+
+
+
+
+
+
+
